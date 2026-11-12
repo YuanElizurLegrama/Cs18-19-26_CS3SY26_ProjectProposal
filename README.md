@@ -72,8 +72,8 @@ classDiagram
 ### Goals:
 Describe the long term outcomes of your project followed by a couple of objectives to meet the goals stated in this paragraph
 
-- Objective 1:
-- Objective 2:
-- Objective n:
+- Objective 1: Build a robust Dataset class that can safely open, read, and clean survey files without crashing.
+- Objective 2: Write accurate math formulas inside the StatisticsCalculator class to instantly compute the mean, median, and mode.
+- Objective 3: Design clear display methods in the Visualizer class to present the final statistical outputs and summaries in an easy-to-read format.
 
 [Click here for Rubrics and Sample projects](https://docs.google.com/document/d/1xKd1CqK6DcNWS2_oJPBNtY5n3I3Hqiw8FY3W295Iqfk/edit?usp=sharing)
