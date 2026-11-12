@@ -31,9 +31,6 @@ Secondary Users: Teachers who need a reliable, simple programming tool to demons
   
 The _App_ class starts the program and instructs the _Dataset_ class to load the survey file. Once the data is cleaned, the numbers sent to the _StatisticsCalculator_ class to find the mean, median, mode. Finally, the _Visualizer_ class takes these results and prints a clear summary report to the user.
 
-**Sample class Diagram from https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png:**
-
-![Sample Diagram](https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png)
 
 ```mermaid
 classDiagram
