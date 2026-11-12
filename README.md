@@ -16,7 +16,20 @@ Primary Users: Grade school and high school students who need to organize, analy
 Secondary Users: Teachers who need a reliable, simple programming tool to demonstrate how statistical data works in real-world scenarios.
 
 ### System Features and OOP Design
-1. 
+1. **Dataset:** Manages opening and reading survey files.
+   - Attributes: file_path(str), data_list(list)
+   - Methods: load_file(), clean_data()
+2. **StatisticsCalculator:** Performs all core math calculations.
+   - Attributes: numbers(list)
+   - Methods: get_mean(), get_median(), get_mode()
+3. **Visualizer:** Formats and displays the results nicely.
+   - Attributes: title(str)
+   - Methods: start(), show_menu(), handle_choice()
+4. **App:**  Controls the overall program and user menu.
+   - Attributes: current_data(Dataset), calculator(StatisticsCalculator)
+   - Methods: start(), show_menu(), handle_choice()
+  
+The _App_ class starts the program and instructs the _Dataset_ class to load the survey file. Once the data is cleaned, the numbers sent to the _StatisticsCalculator_ class to find the mean, median, mode. Finally, the _Visualizer_ class takes these results and prints a clear summary report to the user.
 
 **Sample class Diagram from https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png:**
 
