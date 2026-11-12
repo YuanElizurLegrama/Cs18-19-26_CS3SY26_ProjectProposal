@@ -2,7 +2,6 @@
 
 
 ## Project Proposal Template:
-cvbbbc
 ### Project Title or Name of the Application	:
 ### Section			   	      :
 ### Group Members			    :
