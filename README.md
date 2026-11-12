@@ -10,7 +10,7 @@
 
 Students often collect survey information about daily habits, such as study time and sleep hours, but calculating the math by hand can be slow and confusing. StudentStats is a simple Python program that helps students analyze survey data. It automatically calculates the mean, median, and mode. This app is needed so students can save time, avoid math mistakes, and easily understand patterns in school surveys.
 
-**Target Users**
+### Target Users
 Primary Users: Grade school and junior high school students who need to organize and study survey data for school projects
 
 Secondary Users: Teachers who want a simple tool to show how statistics work in real life.
