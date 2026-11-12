@@ -68,8 +68,8 @@ classDiagram
     App --> Dataset : uses
     App --> StatisticsCalculator : uses
     App --> Visualizer : uses
-### Goals:
 ```
+### Goals:
 Describe the long term outcomes of your project followed by a couple of objectives to meet the goals stated in this paragraph
 
 - Objective 1:
