@@ -4,7 +4,7 @@
 ## Project Proposal Template:
 ### Project Title or Name of the Application	:  StudentStats: Student Survey & Math Helper
 ### Section			   	      : 9 - Cesium
-### Group Members			    : TAN, Naya Nicolette C., LEGRAMA, Yuan Elizur V., LORILLA, Hurley Sebastien C.
+### Group Members			    : LEGRAMA, Yuan Elizur V., LORILLA, Hurley Sebastien C., TAN, Naya Nicolette C. 
 ### Date (Proposal Date)  : November 13, 2026
 ### Project Description:
 
