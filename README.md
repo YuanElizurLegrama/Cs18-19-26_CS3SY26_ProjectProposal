@@ -2,20 +2,18 @@
 
 
 ## Project Proposal Template:
-### Project Title or Name of the Application	:
-### Section			   	      :
-### Group Members			    :
-### Date (Proposal Date)  : Nov 5, 2026
-fdfhdfhfshsdhfhhtrthdfh
+### Project Title or Name of the Application	:  StudentStats: Student Survey & Math Helper
+### Section			   	      : 9 - Cesium
+### Group Members			    : TAN, Naya Nicolette C., LEGRAMA, Yuan Elizur V., LORILLA, Hurley Sebastien C.
+### Date (Proposal Date)  : November 13, 2026
 ### Project Description:
 
-- A brief summary of the project description and the need for it.
+Students often collect survey information about daily habits, such as study time and sleep hours, but calculating the math by hand can be slow and confusing. StudentStats is a simple Python program that helps students analyze survey data. It automatically calculates the mean, median, and mode. This app is needed so students can save time, avoid math mistakes, and easily understand patterns in school surveys.
 
-- Describes system components, features, and expected outputs clearly and logically. NOTE: Clearly described the elements(classes), their attributes and methods and how they will interact with each other.
+**Target Users**
+Primary Users: Grade school and junior high school students who need to organize and study survey data for school projects
 
-- Include the description as well of your target demographics as the user of your application. 
-
-- The description is then followed by the class diagram, depicting clearly what was described.
+Secondary Users: Teachers who want a simple tool to show how statistics work in real life.
 
 **Sample class Diagram from https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png:**
 
