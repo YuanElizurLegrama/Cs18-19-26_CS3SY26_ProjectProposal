@@ -35,8 +35,41 @@ The _App_ class starts the program and instructs the _Dataset_ class to load the
 
 ![Sample Diagram](https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png)
 
-### Goals:
+```mermaid
+classDiagram
+    class App {
+        - Dataset current_data
+        - StatisticsCalculator calculator
+        + start()
+        + show_menu()
+        + handle_choice()
+    }
 
+    class Dataset {
+        + String file_path
+        + List data_list
+        + load_file()
+        + clean_data()
+    }
+
+    class StatisticsCalculator {
+        + List numbers
+        + get_mean() float
+        + get_median() float
+        + get_mode() list
+    }
+
+    class Visualizer {
+        + String title
+        + show_chart()
+        + print_report()
+    }
+
+    App --> Dataset : uses
+    App --> StatisticsCalculator : uses
+    App --> Visualizer : uses
+### Goals:
+```
 Describe the long term outcomes of your project followed by a couple of objectives to meet the goals stated in this paragraph
 
 - Objective 1:
